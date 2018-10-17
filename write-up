@@ -1,0 +1,11 @@
+Wikan Setiaji
+1606884413
+APAP - C
+
+1. Karena instance FlightModel memiliki atribut PilotModel (adanya foreign key)
+2. Test akan menghasilkan error karena adanya constrain yang mengharuskan FlightModel memiliki PilotModel 
+3. Agar mock di findByFlightNumber() mereturn objek flight
+4. Agar mock di getFlightDetailByFlightNumber() mereturn objek flight
+5. Untuk mengecek bahwa status requestnya ok 200
+6. Untuk mengecek apakah ada flight number dan flight number benar di body response html ketika melakukan view flight
+7. Untuk menentukan bahwa kita akan memasukan sebuah objek yang akan menjadi json di response yang akan dibuat
